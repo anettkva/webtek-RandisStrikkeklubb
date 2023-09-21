@@ -8,3 +8,4 @@ Hva nettsiden kan inneholde:
 - Påmelding til ulike arrangementer
 - Strikkeoppskrifter
 - Bildeside
+- Inspirasjon
