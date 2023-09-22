@@ -1,3 +1,9 @@
 body {
-    
+    background-color: blanchedalmond;
+    width: 1000px;
+    margin:auto;
+    width: 80ch;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: rgb(55, 33, 18);
 }
