@@ -8,18 +8,21 @@ h2{
 }
 
 h3{
-    font-size: 16px;
+    font-size: 14px;
     font-style: italic;
     margin: 5px;
 }
 
+#byline{
+    margin: 0px;
+}
+
 body {
-    background-color: blanchedalmond;
+    background-color:blanchedalmond;
     width: 1000px;
     margin:auto;
-    width: 80ch;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color: rgb(55, 33, 18);
 }
 
@@ -30,9 +33,14 @@ figure{
 
 img{
     width: 60%;
-    border: 5px solid rgb(114, 114, 114); 
+    border: 5px solid rgb(162, 99, 56); 
     border-radius: 25px;
+    transition: 0.5s;
 }
+
+/* img:hover{
+    transform: scale(1.1);
+} */
 
 .tittel {
     font-size: 18px;
