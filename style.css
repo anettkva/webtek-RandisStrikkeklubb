@@ -36,7 +36,9 @@ img{
     border: 5px solid rgb(162, 99, 56); 
     border-radius: 25px;
     transition: 0.5s;
+    margin-bottom: 30px;
 }
+
 
 /* img:hover{
     transform: scale(1.1);
