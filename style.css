@@ -39,6 +39,13 @@ img{
     margin-bottom: 30px;
 }
 
+table, th, td {
+    border: 2px solid black;
+}
+
+table {
+    padding: 20px;
+}
 
 /* img:hover{
     transform: scale(1.1);
