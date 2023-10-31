@@ -30,8 +30,6 @@ body {
     height: 65px;
 }
 
-/* Kommentar om dropdown-stiler */
-
 /* Dropdown styles */
 .dropdown {
     position: relative;
@@ -47,8 +45,6 @@ body {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
-/* Siste kommentar i første fil */
 
 /* Her starter selve siden */
 main {
@@ -129,6 +125,8 @@ h3 {
 #byline {
     margin: 0px;
 }
+
+/* Kommentar om body-stiler */
 
 body {
     background-color: blanchedalmond;
@@ -223,7 +221,7 @@ section {
     height: 250px;
 }
 
-.box h2 {
+box h2 {
     font-size: 20px;
     color: #333;
 }
@@ -266,7 +264,7 @@ section {
     overflow: hidden;
 }
 
-.inner-footer-container {
+inner-footer-container {
     padding: 1%;
     height: 100%;
 }
@@ -278,12 +276,12 @@ section {
     margin-bottom: 40px;
 }
 
-.footer-contact {
+footer-contact {
     display: flex;
     flex-direction: column;
 }
 
-.footer-contact1 {
+footer-contact1 {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -292,7 +290,7 @@ section {
     margin: 20px;
 }
 
-.footer-contact2 {
+footer-contact2 {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -300,21 +298,21 @@ section {
     line-height: 0.5;
 }
 
-.language-container {
+language-container {
     display: flex;
 }
 
-.language-text {
+language-text {
     font-size: 10px;
 }
 
-.footer-divider {
+footer-divider {
     width: 100%;
     border-bottom: 1px solid rgb(29, 25, 25);
     margin: 10px 0;
 }
 
-.footer-bottom {
+footer-bottom {
     display: flex;
     flex-direction: row;
     justify-content: space between;
@@ -322,15 +320,12 @@ section {
     align-items: center;
 }
 
-.footer-social-icons {
+footer-social-icons {
     display: flex;
     gap: 5px;
     justify-content: flex-end;
     justify-content: space-between;
 }
 
-.footer-social-icons a svg {
-    width: 20px;
-    height: 20px;
-}
-/*christina*/
+footer-social-icons a svg {
+    width: 20px
