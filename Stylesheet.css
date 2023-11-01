@@ -6,7 +6,6 @@
 
 }
 
-
 body {
     background-color: #FFD6B0;
 
@@ -75,7 +74,7 @@ li a {
 /* Her starter selve siden */
 
 
-main {
+main, .paameldingssiden {
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
@@ -132,3 +131,33 @@ p {
         display: none;
     }
 }
+
+/* Påmeldingsside */
+
+.h1_sarah {
+    margin-top: 15vh;
+}
+
+.box_sarah {
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid #333;
+    box-sizing: border-box;
+    margin: 25px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #FFEBCD;
+}
+
+#box1_sarah, #box2_sarah, #box3_sarah {
+    width: 60%;
+    height: 200px;
+}
+
+#box4_sarah {
+    width: 30%;
+    height: 700px;
+}
+
+/* Påmeldingsside slutt */
+
