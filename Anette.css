@@ -1,3 +1,51 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    background-color: #FFD6B0;
+
+}
+
+
+#navbar {
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: #CE8D5E;
+    border-bottom: 2px solid black;
+    z-index: 10;
+
+}
+#logo{
+    padding-top: 5px;
+    margin: 0;
+    height: 65px;
+}
+
+#navbar li {
+    flex: 1;
+    padding: 20px;
+    color: black;
+    text-align: center;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
 .bloggBox {
     display: flex;
     flex-direction: row;
