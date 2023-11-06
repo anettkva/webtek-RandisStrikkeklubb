@@ -45,6 +45,10 @@ li a {
     color: black;
 }
 
+.aktiv_side_sarah {
+    font-weight: 700;
+}
+
 /* Dropdown styles */
 .dropdown {
     position: relative;
@@ -74,7 +78,7 @@ li a {
 /* Her starter selve siden */
 
 
-main, .paameldingssiden {
+main {
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
@@ -134,30 +138,77 @@ p {
 
 /* Påmeldingsside */
 
-.h1_sarah {
-    margin-top: 15vh;
+.h_sarah {
+    margin-left: 30px;
+    font-size: 20px;
+    margin-top: 20px;
 }
 
-.box_sarah {
+#tomrom_sarah {
+    margin-top: 90px;
+}
+  
+.paameldingssiden_sarah{
+    box-sizing: border-box;
+}
+
+.venstresiden_sarah{
+    float: left;
+    width: 60%;
+}
+
+.høyresiden_sarah{
+    float: left;
+    width: 39%;
+}
+
+.paameldingssiden_sarah::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#box1_sarah, #box3_sarah {
     text-align: center;
     font-size: 20px;
-    border: 2px solid #333;
-    box-sizing: border-box;
     margin: 25px;
     padding: 20px;
     border-radius: 25px;
     background-color: #FFEBCD;
 }
 
-#box1_sarah, #box2_sarah, #box3_sarah {
-    width: 60%;
-    height: 200px;
+#box2_sarah {
+    font-size: 20px;
+    margin: 25px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #FFEBCD;
 }
 
 #box4_sarah {
-    width: 30%;
-    height: 700px;
+    text-align: center;
+    background-color: #FFEBCD;
+    border-radius: 25px;
+    margin: 25px;
+    padding: 20px;
 }
+
+.skjema_sarah{
+    border-spacing: 30px;: 20px;
+}
+
+.bilder_sarah {
+    width: 80%;
+    border-radius: 10%;
+}
+
+@media screen and (max-width: 800px) {
+    .venstresiden_sarah, .høyresiden_sarah {
+        width: 100%;
+    }
+}
+
+
 
 /* Påmeldingsside slutt */
 
