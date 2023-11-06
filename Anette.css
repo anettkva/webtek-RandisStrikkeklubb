@@ -50,7 +50,7 @@ li a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 75px;
+    margin-top: 90px;
 }
 
 
@@ -87,14 +87,17 @@ li a {
 #bloggOversikt {
     background-color: #FFEBCD;
     width: 30vw;
-    height: 500px;
+    height: 400px;
     text-align: center;
     border-radius: 5px;
+    padding: 10px;
 }
 
 #bloggOversikt li {
     list-style-type: none;
     padding: 10px;
+    line-height: 50px;
+    
 }
 
 
@@ -116,6 +119,7 @@ li a {
 
 p:first-child{
     font-weight: bold;
+    font-size: larger;
 }
 
 .bloggDato {
