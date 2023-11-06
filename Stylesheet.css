@@ -154,10 +154,10 @@ p {
     position: relative;
     /* text-align: center; */
     border-radius: 5px;
-    display: contents;
     flex-direction: column;
     text-align: left;
     padding:10px;
+    margin-bottom: 10px;
 }
 
 .bloggInnlegg {
@@ -168,7 +168,7 @@ p {
 
 .blogg img {
     position: absolute;
-    width: 100px;
+    width: 30%;
     height: auto;
     top: 50%;
     bottom: 50%;
@@ -190,7 +190,7 @@ p {
 }
 
 @media screen and (max-width: 1000px) {
-    .bloggOversikt {
+    #bloggOversikt {
         display: none;
     }
 
@@ -209,8 +209,8 @@ p:first-child{
     font-weight: bold;
 }
 
-.dato {
-    /* position: absolute; */
+.bloggDato {
+    position: absolute;
     bottom: 0;
     font-size: smaller;
     left: 5px;
