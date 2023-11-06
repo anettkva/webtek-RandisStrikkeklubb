@@ -97,6 +97,7 @@ li a {
     padding: 10px;
 }
 
+
 @media screen and (max-width: 1000px) {
     #bloggOversikt {
         display: none;
