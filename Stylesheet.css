@@ -169,7 +169,7 @@ p {
 }
 
 #box1_sarah, #box3_sarah {
-    text-align: center;
+    /* text-align: center; */
     font-size: 20px;
     margin: 25px;
     padding: 20px;
@@ -194,7 +194,7 @@ p {
 }
 
 .skjema_sarah{
-    border-spacing: 30px;: 20px;
+    border-spacing: 30px;
 }
 
 .bilder_sarah {
@@ -202,7 +202,11 @@ p {
     border-radius: 10%;
 }
 
-@media screen and (max-width: 800px) {
+/* .knapp_sarah{
+    background-color: transparent;
+} */
+
+@media screen and (max-width: 1150px) {
     .venstresiden_sarah, .høyresiden_sarah {
         width: 100%;
     }
