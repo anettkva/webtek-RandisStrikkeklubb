@@ -3,3 +3,4 @@ function meldPå(id) {
     var value = parseInt(element.innerHTML);
     value++;
     element.innerHTML = value;
+}
