@@ -9,13 +9,3 @@ navbar.innerHTML = `<li><a href="tips_og_triks.html">Tips og triks</a></li>
         <a href="bildeside.html">Bildeside</a>
     </div>
 </li>`
-
-/*const navbar = document.getElementById("navbar")
-
-const div = document.createElement("div")
-div.innerHTML = "hei"
-navbar.appendChild(div)
-
-const liText = [
-    "Påmeld"
-]*/

@@ -8,7 +8,7 @@ footer.innerHTML =
 </div>
 
 <div class = "titi" id = "footer2" >
-<p><a href="hjemmesiden.html"><img src="img/Logo.png" alt="Hjem" id ="footerLogo"></a></p>
+<p><a href="hjemmesiden.html"><img src="imgh/Bilde1.png" alt="Hjem" id ="footerLogo"></a></p>
 <p>2023 Randis strikkeklubb AS</p>
 <p><a href="https://www.facebook.com/"><img src="img1/facebook.svg" alt="Facebook" class ="sosialMedier" ></a> <a href="https://www.instagram.com/"><img src="img1/instagram.svg" alt="Instagram" class ="sosialMedier"></a></p>
 </div>
