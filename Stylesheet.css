@@ -97,8 +97,6 @@ main {
     width: 100%;
     position: relative;
     display: flex;
-    border: 1px solid red
-    
 }
 
 .flex-col {
@@ -147,7 +145,7 @@ p {
 #tomrom_sarah {
     margin-top: 90px;
 }
-  
+
 .paameldingssiden_sarah{
     box-sizing: border-box;
 }
@@ -194,7 +192,7 @@ p {
 }
 
 .skjema_sarah{
-    border-spacing: 30px;: 20px;
+    border-spacing: 30px;
 }
 
 .bilder_sarah {
@@ -212,3 +210,36 @@ p {
 
 /* Påmeldingsside slutt */
 
+
+/*footer*/
+
+footer{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid black;
+    background-color: #7d8e77;
+    font-size: 200px;
+}
+
+.titi{
+    flex: 1;
+    align-items: center;
+}
+
+#footer2 {
+    text-align: center;
+}
+
+#footer3 {
+    text-align: right;
+}
+
+.sosialMedier{
+    width: 40px;
+}
+
+#footerLogo{
+    width: 110px;
+}

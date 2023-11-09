@@ -99,3 +99,13 @@
 }
 
 
+.grønn{
+    background-color: green;
+    background: green;
+    z-index: 100000;
+    font-size: 200px;
+}
+.footer-content{
+    background-color: green;
+    background: green;
+}
