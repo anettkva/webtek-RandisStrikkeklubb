@@ -9,22 +9,54 @@
     <link rel="stylesheet" href="stylesheeth.css">
 </head>
 <body>
-   <header>
+    <header>
         <ul id="navbar">
         </ul>
-    </header> 
-    <section class="boks1">
+    </header>
+
+    <div class="boks1">
         <h3 id="boksoverskrift1"><a href="bildeside.html">Bildeside</a></h3>
-        <br>
-        <div id="gallery">
-            <ul>
-                <li><a href="bildeside.html"><img src="imgh/medium-shot-smiley-young-people-crocheting.jpg"></a></li>
-                <li><a href="bildeside.html"><img src="imgh/Oma_strickt_Strümpfe.jpg"></a></li>
-                <li><a href="bildeside.html"><img src="imgh/smiling-lady-mitts-hat-scarf.jpg"></a></li>
-                <li><a href="bildeside.html"><img src="imgh/woman-knits-knitting-needles-couch.jpg"></a></li>
-            </ul>
+    </div>
+
+    <div class="slideshow-container">
+
+        <div class="slides fade">
+          <div class="nummer">1 / 4</div>
+          <img src="imgh/medium-shot-smiley-young-people-crocheting.jpg">
+          <div class="undertekst">Ungdommen lærer å strikke</div>
         </div>
-    </section>
+        
+        <div class="slides fade">
+          <div class="nummer">2 / 4</div>
+          <img src="imgh/Oma_strickt_Strümpfe.jpg">
+          <div class="undertekst">Bestemor strikker sokker</div>
+        </div>
+        
+        <div class="slides fade">
+          <div class="nummer">3 / 4</div>
+          <img src="imgh/smiling-lady-mitts-hat-scarf.jpg">
+          <div class="undertekst">Store masker</div>
+        </div>
+
+        <div class="slides fade">
+            <div class="nummer">4 / 4</div>
+            <img src="imgh/woman-knits-knitting-needles-couch.jpg">
+            <div class="undertekst">Stort strikkeprosjekt</div>
+          </div>
+        
+        <a class="forrige" onclick="plusSlides(-1)">❮</a>
+        <a class="neste" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div id="markør">
+          <span class="markør" onclick="currentSlide(1)"></span> 
+          <span class="markør" onclick="currentSlide(2)"></span> 
+          <span class="markør" onclick="currentSlide(3)"></span>
+          <span class="markør" onclick="currentSlide(4)"></span>  
+        </div>
+    </div>
 
     <section class="boks2">
         <h3 id="boksoverskrift2"><a href="blogg.html">Blogg</a></h3>
@@ -47,22 +79,13 @@
                 </p>
                 <p class="dato">Dato: <time id="time" datetime="2023-10-5">5. oktober, 2023</time></p>
             </div>
-
-            <!--<div id="boksbarn">
-                <h6>Hællæ</h6>
-                <p>
-                Hællæ! Åssen går'e æ?
-                </p>
-            </div>
-
-            <div id="boksbarn">
-                <h6>Hællæ</h6>
-                <p>
-                Hællæ! Åssen går'e æ?
-                </p>
-            </div>-->
         </div>
     </section>
-<script src="javascript.js"></script>
+
+    <footer id="footerContent"></footer>
+
+    <script src="feetpics.js"></script>
+    
+    <script src="javascript.js"></script>
 </body>
 </html>
