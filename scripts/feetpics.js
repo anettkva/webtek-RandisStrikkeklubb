@@ -18,7 +18,7 @@ footer.innerHTML =
     <p>Meld deg på vårt nyhetsbrev</p>
     <form id="emailForm">
         <input type="email" name="email" placeholder="Skriv inn din e-post" required/>
-        <button type="submit" id="email-button">OK</button>
+        <button type="submit" id="email-button">Meld på</button>
     </form>
     <div id="admissionMessage">
         <p id="messageText">Du har blitt meldt på!</p>
