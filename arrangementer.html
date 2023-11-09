@@ -4,20 +4,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Påmelding</title>
-    <link rel="stylesheet" type="text/css" href="felles_css.css">
+    <link rel="stylesheet" type="text/css" href="Stylesheet.css">
 </head>
 <body>
     <header>
         <ul id = "navbar">
             <li><a href="tips_og_triks.html">Tips og triks</a></li>
             <li><a href="arrangementer.html">Påmelding</a></li>
-            <li><a href="hjemmesiden.html"><img src="img/Logo.png" alt="Hjem" id = "logo"></a></li>
+            <li><a href="hjemmesiden.html"><img src="img/logo.png" alt="Hjem" id = "logo"></a></li>
             <li><a href="oppskrifter.html">Oppskrifter</a></li>
             <li><a href="inspirasjon.html">Inspirasjon</a></li>
         </ul>
     </header>
-    <div>
-        blablabla
+
+    <div id="tomrom_sarah"></div>
+
+    <div class="paameldingssiden_sarah">
+        <div class="venstresiden_sarah">
+            <h1 class="h_sarah">Bli med i Randis Strikkeklubb!</h1>
+
+            <div class="box" id="box1_sarah">
+                <p>Så gøy at du vil melde deg på et arrangement med strikkeklubben!</p>
+                <p>Vi har møter hver torsdag klokken 18-20. Adressen er: Svingenveien 56 1310 Kjelsås.</p>
+                <p>Det er bare å skrive inn navn, telefonnummer for å bli klubbmedlem. Da er du påmeldt neste gruppemøte automatisk. Vi gleder oss til å se deg!</p>
+            </div>
+            <div class="box" id="box2_sarah">
+                <form id ="klubb">
+                    Navn: <input type="text" name="navn">
+                    <br><br>
+                    Telefonnummer: <input type="number" name="telefonnummer">
+                    <br><br>
+                    <input type="submit" value="Bli klubbmedlem!">
+            </form>
+        </div>
+        
+
+        <div class="box" id="box3_sarah">
+            <h3>Ønsker du å bare delta på noen arrangementer?</h3>
+            <h3>Meld deg på de enkelte under:</h3>
+            <table class="skjema_sarah">
+                <tr>
+                    <th>Dato</th>
+                    <th>Tema</th>
+                    <th>Hvor</th>
+                    <th>Meld deg på:</th>
+                    <th>Antall påmeldte</th>
+                </tr>
+                <tr>
+                    <td>13/11-23</td>
+                    <td>Strikkekveld</td>
+                    <td>Trondheim</td>
+                    <td>
+                        <form id = "pluss1">
+                            <input type="email" name="email" id="email1" placeholder="Skriv inn din e-post" required/>
+                            <button id="knapp1" >Meld på</button>
+                        </form>
+                        <div id="admissionMessage">
+                            <p id="messageText">Du har blitt meldt på!</p>
+                        </div>
+                    </td>
+                    <td id="tallSomSkalØkes1">
+                        13
+                    </td>
+                </tr>
+                <tr>
+                    <td>15/12-23</td>
+                    <td>Middag</td>
+                    <td>SOT</td>
+                    <td>
+                        <form id = "pluss2">
+                            <input type="email" name="email" id="email2" placeholder="Skriv inn din e-post" required/>
+                            <button id="knapp2" >Meld på</button>
+                        </form>
+                        <div id="admissionMessage2">
+                            <p id="messageText">Du har blitt meldt på!</p>
+                        </div>
+                    </td>
+                    <td id="tallSomSkalØkes2">
+                        17
+                    </td>
+                </tr>
+                <tr>
+                    <td>20/12-23</td>
+                    <td>Strikkekveld</td>
+                    <td>Trondheim</td>
+                    <td>
+                        <form id = "pluss3">
+                            <input type="email" name="email" id="email3" placeholder="Skriv inn din e-post" required/>
+                            <button id="knapp3" >Meld på</button>
+                        </form>
+                        <div id="admissionMessage3">
+                            <p id="messageText">Du har blitt meldt på!</p>
+                        </div>
+                    </td>
+                    <td id="tallSomSkalØkes3">
+                        10
+                    </td>
+                </tr>
+            </table>
+        </div>
     </div>
+        <div class="høyresiden_sarah">
+            <h2 class="h_sarah">Bilder fra tidligere arrangementer</h2>
+            <div class="box" id="box4_sarah">
+                <img class="bilder_sarah" src="bilder/sosial1.jpeg" alt="Samling på cafe">
+                <img class="bilder_sarah" src="bilder/sosial2.jpeg" alt="Gode venner">
+                <img class="bilder_sarah" src="bilder/sosial3.jpeg" alt="På tur ute">
+            </div>
+        </div>
+    </div>
+    <footer id ="footerContent"></footer>
+    <script src="paamelding.js"></script>
+    <script src="feetpics.js"></script>
+
 </body>
 </html>

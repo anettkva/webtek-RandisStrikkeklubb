@@ -260,3 +260,15 @@ footer{
 #footerLogo{
     width: 110px;
 }
+#admissionMessage {
+    display: none;
+    font-style: italic;
+}
+#admissionMessage2 {
+    display: none;
+    font-style: italic;
+}
+#admissionMessage3 {
+    display: none;
+    font-style: italic;
+}

@@ -16,29 +16,21 @@ footer.innerHTML =
 <div class = "titi" id = "footer3">
 <p>Språk/region: Norway</p>
     <p>Meld deg på vårt nyhetsbrev</p>
-    <form>
+    <form id="emailForm">
         <input type="email" name="email" placeholder="Skriv inn din e-post" required/>
         <button type="submit" id="email-button">OK</button>
     </form>
+    <div id="admissionMessage">
+        <p id="messageText">Du har blitt meldt på!</p>
+    </div>
 </div>`
 
+
+
 const button = document.getElementById("email-button");
-const modalContainer = document.getElementById("modal-container");
-console.log(modalContainer);
-
-button.addEventListener("click", () => {
-  /* const response = await fetch("some-url") */
-    modalContainer.removeChild(document.getElementById("footer-newsletter"))
-    const section = document.createElement("section")
-    section.classList.add("modal-container")
-    /* const div = document.createElement("div")
-    div.classList.add("inner-modal-container") */
-
-    const p = document.createElement("p")
-    p.textContent = "Takk for din påmelding!"
-    p.classList.add("modal-text")
-    modalContainer
-    .appendChild(section)
-    /* .appendChild(div) */
-    .appendChild(p)
+button.addEventListener("click", function(event){
+    event.preventDefault();
+    document.getElementById('emailForm').style.display = 'none';
+    let admissionMessage = document.getElementById('admissionMessage');
+    admissionMessage.style.display = 'block';
 });
