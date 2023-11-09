@@ -87,7 +87,7 @@ li a {
 
 #bloggOversikt {
     background-color: #FFEBCD;
-    width: 30vw;
+    width: 25vw;
     height: 400px;
     text-align: center;
     border-radius: 5px;
@@ -112,11 +112,11 @@ li a {
     }
 
     .bloggInnlegg {
-        width: 100%; 
+        width: 98%; 
     }
 
     .blogg {
-        width: 100%;
+        width: 98%;
     }
        
     
