@@ -75,6 +75,14 @@ li a {
     margin-left: 10px;
 }
 
+.text {
+    width:65%;
+}
+
+.text h5 {
+    margin-bottom: 10px;
+}
+
 .blogg img {
     position: absolute;
     width: 30%;
@@ -102,7 +110,6 @@ li a {
     list-style-type: none;
     padding: 10px;
     line-height: 50px;
-    
 }
 
 
