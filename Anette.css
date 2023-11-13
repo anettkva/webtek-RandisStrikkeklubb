@@ -86,7 +86,7 @@ li a {
 .blogg img {
     position: absolute;
     width: 30%;
-    height: auto;
+    height: 90%;
     top: 50%;
     bottom: 50%;
     right: 10px;
