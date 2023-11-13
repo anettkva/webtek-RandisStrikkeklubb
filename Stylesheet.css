@@ -55,9 +55,6 @@ li a:hover {
     font-weight: 700;
 }
 
-
-
-
 .aktiv_side_sarah {
     font-weight: 700;
 }
@@ -288,4 +285,411 @@ footer{
 #admissionMessageKlubb {
     display: none;
     font-style: italic;
+}
+
+/*Blogg*/
+.bloggBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.blogg {
+    background-color: #FFEBCD;
+    width:65vw;
+    height:30vh;
+    position: relative;
+    /* text-align: center; */
+    border-radius: 5px;
+    flex-direction: column;
+    text-align: left;
+    padding:10px;
+    margin-bottom: 10px;
+}
+
+.bloggInnlegg {
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.text {
+    width:65%;
+}
+
+.text h5 {
+    margin-bottom: 10px;
+}
+
+.blogg img {
+    position: absolute;
+    width: 30%;
+    height: 90%;
+    top: 50%;
+    bottom: 50%;
+    right: 10px;
+    transform: translate(0, -50%);
+}
+
+#bloggOversikt {
+    background-color: #FFEBCD;
+    width: 25vw;
+    height: 400px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: fixed;
+    right: 10px;
+}
+
+#bloggOversikt li {
+    list-style-type: none;
+    padding: 10px;
+    line-height: 50px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    #bloggOversikt {
+        display: none;
+    }
+
+    .bloggInnlegg {
+        width: 98%; 
+    }
+
+    .blogg {
+        width: 98%;
+    }  
+}
+
+
+.bloggDato {
+    position: absolute;
+    bottom: 0;
+    font-size: smaller;
+    left: 5px;
+}
+
+/*Triks og trips?*/
+#givemespace {
+    margin: 20px;
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 50px;
+  margin-bottom: 20px;
+}
+
+.boxTriksTips{
+  background-color:  #FFEBCD; 
+  padding: 20px; 
+  border-radius: 25px;
+  justify-content: space-between;
+  width: 70%;
+}
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.triksTekst {
+  width: 60%; 
+}
+
+.image-container > img {
+  width: 250px; 
+  height: 250px;
+  border-radius: 25px;
+  float: right;
+}
+
+
+/*Inspirasjon go bildesidet*/
+.boks1 {
+    margin: 20px;
+    margin-top: 80px;
+    padding: 20px;
+}
+
+#boksoverskrift1 a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#boksoverskrift1 a:hover {
+    text-decoration: underline;
+}
+
+#gallery {
+    margin: auto;
+    text-align: center;
+}
+
+#gallery ul {
+    list-style: none;
+}
+
+#gallery ul li {
+    float: none;
+    display: inline-block;
+    text-align: center;
+}
+
+#gallery ul li img {
+    width: 250px;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+#gallery ul li img:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
+.boks2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+#boksoverskrift2 a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#boksoverskrift2 a:hover {
+    text-decoration: underline;
+}
+
+#boksepappa {
+    display: table;
+}
+
+#boksbarn1 {
+    margin: 25px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #FFEBCD;
+    float: left;
+    width: 40%;
+    text-align: left;
+}
+
+#boksbarn2 {
+    margin: 25px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #FFEBCD;
+    float: right;
+    width: 40%;
+    text-align: left;
+}
+
+.dato {
+    font-size: 16px;
+    font-style: italic;
+}
+
+#time {
+    font-style: italic;
+}
+
+.boksbildeside {
+    margin: 20px;
+    margin-top: 80px;
+    padding: 20px;
+}
+
+/*Slideshow containeren*/
+.slideshow-container {
+    width: 50%;
+    position: relative;
+    margin: auto;
+}
+
+.slides {
+    display: none;
+}
+
+.slides img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+/*Knappene*/
+.forrige, .neste {
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  transition: 0.6s;
+  border-radius: 3px;
+  user-select: none;
+}
+
+/* Plasserer neste knappen til høyre*/
+.neste {
+  right: 0;
+  border-radius: 3px;
+}
+
+/* Legger til bakgrunn når en hovrer på pila */
+.forrige:hover, .neste:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/*Undertekst*/
+.undertekst {
+  color:rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 8px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/*Bildenummer*/
+.nummer {
+  color: #f2f2f2;
+  font-size: 14px;
+  padding: 15px;
+  position: absolute;
+  top: 0;
+}
+
+/*Bildemarkørene*/
+
+#markør {
+    text-align: center;
+}
+
+.markør {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0;
+  background-color: #FFEBCD;
+  border-radius: 50%;
+  display: inline-block;
+  transition: 0.6s;
+}
+
+.active, .dot:hover {
+  background-color: #CE8D5E;
+}
+
+/* Fading effekt */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: 0.4} 
+  to {opacity: 1}
+}
+
+
+/*Oppskrift*/
+
+/* Her er oppskrifts siden */
+
+
+.overskrift {
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;   
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#strikkeOverskrift {
+    font-size: xx-large;
+    line-height: 40px;
+}
+
+#genser-ul, #skjerf-ul, #lue-ul {
+    line-height: 30px;
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 25px;
+    width: 400px;
+}
+
+#genser-ul li, #skjerf-ul li, #lue-ul li {
+    margin-bottom: 20px;
+}
+
+
+.bilder {
+    margin-left: auto;
+    width: 500px;
+    max-width: 100%;       
+}
+
+#genser-bilde, #cardigan-bilde, #basic-skjerf, #hege-bilde, #skjerf-grått, #basic-bilde, #skjerf-hvitt, #skjerf-sophie, #skjerf-dina, #lue-grønn, #tynnribb-lue, #cranberry-lue, #min-mote-lue{
+    width: 200px;
+    
+}
+
+ul li:first-child {
+    list-style-type: none;
+}
+
+
+
+@media screen and (min-width: 770px) and (max-width: 960px){
+    .bilder {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #genser-ul, #skjerf-ul, #lue-ul {
+        width: 100%; 
+
+    }
+    .oppskriftBoks {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .boks, .boks2, .boks3 {
+        display: flex;
+        flex-direction: column;
+    }
+    #fjern {
+        display: none;
+    }
 }
