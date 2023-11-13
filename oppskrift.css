@@ -1,11 +1,6 @@
 
 /* Her er oppskrifts siden */
 
-#genser, #skjerf, #lue {
-    font-size:x-large;
-    margin: 10px;
-    order: 1;
-}
 
 .overskrift {
     margin: 10px auto;
