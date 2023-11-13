@@ -1,6 +1,6 @@
 * {
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     margin: 0;
     padding: 0;
 
@@ -136,7 +136,12 @@ main {
 #randibildet {
     width: 100%;
 }
-p {
+
+.margin-10{
+    padding: 10px;
+}
+
+p h4{
     padding: 10px;
 }
 
@@ -263,11 +268,20 @@ footer{
     display: none;
     font-style: italic;
 }
+#admissionMessages {
+    display: none;
+    font-style: italic;
+}
 #admissionMessage2 {
     display: none;
     font-style: italic;
 }
 #admissionMessage3 {
+    display: none;
+    font-style: italic;
+}
+
+#admissionMessageKlubb {
     display: none;
     font-style: italic;
 }

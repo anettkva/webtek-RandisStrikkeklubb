@@ -24,11 +24,17 @@
     </header>
     <main>
         <section class = "boks divstil">
-            <p class = "flex-1">
-                Hei og velkommen til denne nettsiden! <br>
-                Denne nettsiden eies av meg, Randi. <br>
-                Jeg lagde denne nettsiden siden ejg har stor interesse for strikking og ønsker å lage et større fellesskap
+            <div class = "flex-1 margin-10">
+            <h4>Hei og velkommen til denne nettsiden!</h4>
+            <p>
+                <br>Denne nettsiden eies av meg, Randi. <br> <br>
+                Jeg lagde denne nettsiden siden jeg har stor interesse for strikking og ønsker å lage et større fellesskap både for unge, voksne og eldre. Her er alle velkommen! <br>
+                Jeg har en strikkeklubb som er basert i Trondheim, her arrangerer vi diverse arrangementer. Hvis dere er i nærområdet og dette virker interessant så er det bare å melde seg på! Du trenger ikke å være klubbmeldem for å bli med på arrangementene, så det er bare å komme. <br><br>
+                På denne nettsiden kan du finne diverse strikkeoppskrifter, der jeg oppdaterer med stadig nye oppskrifter. Vi har også en liten side om triks og triks for dere som er litt ny til strikking.<br><br>
+                På inspirasjonsiden våres kan du finne bloggen jeg skriver, der skriver jeg litt om mine projekter og om klubbmøtene. Det er også en inspirasjonside der hvor dere finner bilder av klubbmedlemenes prosjekter!
+
             </p>
+            </div>
             <div class="bildeDiv flex-1">
                 <img src="img/randi.jpeg"  id = "randibildet">
             </div>
@@ -36,16 +42,45 @@
 
         <section class = "boks">
             <div class="divstil flex-1 blogg">
-                <p>Siste blogginnlegg: </p>
+                <h4>Siste blogginnlegg: </h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eaque hic similique! Maxime quasi nemo voluptatum accusamus atque, eius tenetur porro a itaque magni aspernatur ducimus? Id libero quia minus.</p>
             </div>
             <div class = "flex-col  flex-1">
                 <div class ="flex-row">
-                    <div class ="divstil flex-1">heihei</div>
+                    <div class ="divstil flex-1">
+                        <h4>Tips og trisk LINK</h4>
+                        <p>Hvis du er ny til strikking så gjerne trykk på overskriften! Da kommer du til en side som kan hjelpe deg :)</p>
+                    </div>
                     <div class = "flex-1" id = "fjern"></div>
                 </div>
                 <div class="divstil">
-                    heihei
+                    <h4>Førstkommende arrangement</h4>
+                    <table>
+                        <tr>
+                            <th>Dato</th>
+                            <th>Tema</th>
+                            <th>Hvor</th>
+                            <th>Meldt deg på:</th>
+                            <th>Antall påmeldte</th>
+                        </tr>
+                        <tr>
+                            <th>13/10-23</th>
+                            <th>Strikkekveld</th>
+                            <th>Trondheim</th>
+                            <th>
+                                <form id = "pluss1">
+                                    <input type="email" name="email" id="email1" placeholder="Skriv inn din e-post" required/>
+                                    <button id="knapp1" >Meld på</button>
+                                </form>
+                                <div id="admissionMessages">
+                                    <p id="messageText">Du har blitt meldt på!</p>
+                                </div>
+                            </th>
+                            <td id="tallSomSkalØkes1">
+                                13
+                            </td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </section>   

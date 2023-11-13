@@ -2,7 +2,7 @@ const button1 = document.getElementById("knapp1");
 button1.addEventListener("click", function(event){
     event.preventDefault();
     document.getElementById('pluss1').style.display = 'none';
-    let admissionMessage = document.getElementById('admissionMessage');
+    let admissionMessage = document.getElementById('admissionMessages');
     admissionMessage.style.display = 'block';
     let antall = parseInt(document.getElementById("tallSomSkalØkes1").textContent.trim());
     nyAntall = antall +1
@@ -29,4 +29,12 @@ button3.addEventListener("click", function(event){
     let antall = parseInt(document.getElementById("tallSomSkalØkes3").textContent.trim());
     nyAntall = antall +1
     document.getElementById("tallSomSkalØkes3").textContent = nyAntall;
+});
+
+const buttonKlubb = document.getElementById("buttonKlubb");
+buttonKlubb.addEventListener("click", function(event){
+    event.preventDefault();
+    document.getElementById('klubb').style.display = 'none';
+    let admissionMessageKlubb = document.getElementById('admissionMessageKlubb');
+    admissionMessageKlubb.style.display = 'block';
 });
