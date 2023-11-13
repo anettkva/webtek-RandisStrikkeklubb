@@ -15,34 +15,73 @@
     </header> 
 
     <section class="boksbildeside">
-        <div id="gallery">
-            <ul>
-                <li><img src="imgh/medium-shot-smiley-young-people-crocheting.jpg"></li>
-                <li><img src="imgh/Oma_strickt_Strümpfe.jpg"></li>
-                <li><img src="imgh/smiling-lady-mitts-hat-scarf.jpg"></li>
-                <li><img src="imgh/woman-knits-knitting-needles-couch.jpg"></li>
-            </ul>
-        </div>
-
-        <div id="gallery">
-            <ul>
-                <li><img src="imgh/high-angle-hot-chocolate-wooden-board-with-blanket-lights_23-2148791066.webp"></li>
-                <li><img src="imgh/young-adult-ready-knitting-home.jpg"></li>
-                <li><img src="imgh/medium-shot-young-man-knitting-camera_23-2149299563.jpg"></li>
-                <li><img src="imgh/medium-shot-young-woman-knitting-home_23-2149310960.jpg"></li>
-            </ul>
-        </div>
-
-        <div id="gallery">
-            <ul>
-                <li><img src="imgh/hobby-leisure-retirement-concept-good-looking-elegant-grandmother-wearing-eyeglasses-sitting-gray-couch-with-needles-knitting.webp"></li>
-                <li><img src="imgh/one-woman-knitting-warm-multi-colored-winter-clothing-generated-by-ai_188544-23385.webp"></li>
-                <li><img src="imgh/vintage-wooden-knitting-needles-threads-cozy-sofa-with-pillows-slippers-nearby_169016-3599.jpg"></li>
-                <li><img src="imgh/young-adult-ready-knitting-home_23-2149373712.webp"></li>
-            </ul>
-        </div>
+        <ul id="rad">
+            <li id="rad1">
+                <div id="gallery">
+                    <ul>
+                        <div class="image-container" onclick="endreStørrelse(this)">
+                            <li><img src="imgh/medium-shot-smiley-young-people-crocheting.jpg" alt="bilde1"></li>
+                            <p class="bildebeskrivelse">Her kan du se to stykker som kooooooser seg masse. Strikking skaper glede!</p>
+                        </div>
+                        <div class="image-container" onclick="endreStørrelse(this)">
+                            <li><img src="imgh/Oma_strickt_Strümpfe.jpg" id="Bilde 2"></li>
+                            <p class="bildebeskrivelse"> Strikking kan du gjøre hvor som helst.</p>
+                        </div>
+                        <div class="image-container" onclick="endreStørrelse(this)">              
+                            <li><img src="imgh/smiling-lady-mitts-hat-scarf.jpg" id="bilde3"></li>
+                            <p class="bildebeskrivelse"> Se så god og varm Turid er!</p>
+                        </div>
+                        <div class="image-container" onclick="endreStørrelse(this)">
+                             <li><img src="imgh/woman-knits-knitting-needles-couch.jpg" id="bilde4"></li>
+                             <p class="bildebeskrivelse"> Match garnet med neglene😍</p>
+                        </div>
+                    </ul>                   
+                </div>
+            </li>
+            <li id="rad2">
+                <div id="gallery">
+                    <ul>
+                        <div class="image-container" onclick="endreStørrelse(this)">
+                            <li><img src="imgh/young-adult-ready-knitting-home.jpg" id="bilde6"></li>
+                            <p class="bildebeskrivelse">Oscar har kjøpt seg nytt garn på tilbud. Et hot tips er å kjøpe garn på black friday!</p>
+                        </div>
+                        <div class="image-container" onclick="endreStørrelse(this)">
+                            <li><img src="imgh/medium-shot-young-man-knitting-camera_23-2149299563.jpg" id="bilde7"></li>
+                            <p class="bildebeskrivelse">Sigmund liker ikke å strikk, men han ser gjerne på. I går vant han en sjakkturnering. Han er Norges neste Magnus Karlsen.</p>
+                        </div>
+                        <div class="image-container" onclick="endreStørrelse(this)">
+                            <li><img src="imgh/medium-shot-young-woman-knitting-home_23-2149310960.jpg" id="bilde8"></li>
+                            <p class="bildebeskrivelse">Sigrid er en fast gjest</p>
+                        </div>
+                    </ul>
+                </div>
+            </li>
+            <li id="rad3">
+                <div id="gallery">
+                    <ul>
+                        <div class="image-container" onclick="endreStørrelse(this)">
+                            <li><img src="imgh/hobby-leisure-retirement-concept-good-looking-elegant-grandmother-wearing-eyeglasses-sitting-gray-couch-with-needles-knitting.webp" id="bilde9"></li>
+                            <p class="bildebeskrivelse">The one and only Albertine.</p>
+                        </div>
+                        <div class="image-container" onclick="endreStørrelse(this)">
+                            <li><img src="imgh/one-woman-knitting-warm-multi-colored-winter-clothing-generated-by-ai_188544-23385.webp" id="bilde10"></li>
+                            <p class="bildebeskrivelse">Farger, farger FARGER.🍅</p>
+                        </div>
+                        <div class="image-container" onclick="endreStørrelse(this)">
+                            <li><img src="imgh/vintage-wooden-knitting-needles-threads-cozy-sofa-with-pillows-slippers-nearby_169016-3599.jpg" id="bilde11"></li>
+                            <p class="bildebeskrivelse">Noen går for den moderne varianten, lyse naturlige farger.</p>
+                        </div>
+                        <div class="image-container" onclick="endreStørrelse(this)">
+                            <li><img src="imgh/young-adult-ready-knitting-home_23-2149373712.webp" id="bilde12"></li>
+                            <p class="bildebeskrivelse">Sheeeeeeeeeeeeesh Fride elsker masse garn. Men pass på, hun er en drapsmaskin med strikkepinner.</p>
+                        </div>
+                    </ul>
+                </div>
+            </li>
+        </ul>
     </section>
     
+    <script src="bildeserie.js"></script>
     <script src="javascript.js"></script>
 </body>
 </html>
