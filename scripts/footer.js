@@ -8,9 +8,9 @@ footer.innerHTML =
 </div>
 
 <div class = "titi" id = "footer2" >
-<p><a href="hjemmesiden.html"><img src="imgh/Bilde1.png" alt="Hjem" id ="footerLogo"></a></p>
+<p><a href="hjemmesiden.html"><img src="img/Bilde1.png" alt="Hjem" id ="footerLogo"></a></p>
 <p>2023 Randis strikkeklubb AS</p>
-<p><a href="https://www.facebook.com/"><img src="img1/facebook.svg" alt="Facebook" class ="sosialMedier" ></a> <a href="https://www.instagram.com/"><img src="img1/instagram.svg" alt="Instagram" class ="sosialMedier"></a></p>
+<p><a href="https://www.facebook.com/"><img src="img/facebook.svg" alt="Facebook" class ="sosialMedier" ></a> <a href="https://www.instagram.com/"><img src="img/instagram.svg" alt="Instagram" class ="sosialMedier"></a></p>
 </div>
 
 <div class = "titi" id = "footer3">
@@ -21,7 +21,7 @@ footer.innerHTML =
         <button type="submit" id="email-button">Meld på</button>
     </form>
     <div id="admissionMessage">
-        <p id="messageText">Du har blitt meldt på!</p>
+        <p class="messageText">Du har blitt meldt på!</p>
     </div>
 </div>`
 
