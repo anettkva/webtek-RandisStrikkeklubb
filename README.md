@@ -1,10 +1,5 @@
 # Webtek gruppe 24
 
-Hei anettre
-
-test vici heii
-
-test jeøeeee
 
 ## Getting started
 
