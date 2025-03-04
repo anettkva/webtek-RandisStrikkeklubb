@@ -1,5 +1,6 @@
 # Webtek gruppe 24
 
+NTNU server: https://victobar.folk.ntnu.no/hjemmesiden.html 
 
 ## Getting started
 
