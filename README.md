@@ -1,6 +1,6 @@
 # Webtek gruppe 24
 
-[NTNU server:](https://victobar.folk.ntnu.no/hjemmesiden.html)
+[Klikk her for å se hjemmesiden](https://victobar.folk.ntnu.no/hjemmesiden.html)
 
 # Om prosjektet
 
